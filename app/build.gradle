@@ -26,10 +26,10 @@ android {
 
     signingConfigs {// 自动化打包配置
         release {// 线上环境
-            keyAlias 'huolala'
-            keyPassword 'huolala123'
-            storeFile file('key')
-            storePassword 'huolala123'
+            keyAlias 'android'
+            keyPassword '123456'
+            storeFile file('keystore')
+            storePassword '123456'
         }
     }
 
